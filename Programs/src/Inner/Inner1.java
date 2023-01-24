@@ -7,7 +7,7 @@ class Outer{
 		void show() {
 			System.out.println("a is "+a);
 		}
-	}
+	} //Inner class end
 	
 }
 
