@@ -10,7 +10,7 @@ public class Demo2 {
 		System.out.println(50/0);
 		}
 		catch (ArithmeticException e){
-			
+			System.out.println(e.getMessage());
 		}
 		System.out.println("4");
 		System.out.println("5");
