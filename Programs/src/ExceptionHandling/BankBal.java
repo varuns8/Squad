@@ -50,6 +50,19 @@ class Checkingacc
 			throw new InsufficiantBalException("Low Balance");
 		}
 	}
+	
+	void transfer(double taccnum)
+	{
+		if(accnum==taccnum)
+		{
+			System.out.println("Transfer Successfully!!");
+		}
+		else
+		{
+			throw new TransferException("Account not exist!!!");
+		}
+	}
+	
 }
 
 class InsufficiantBalException extends RuntimeException
@@ -63,9 +76,20 @@ class InsufficiantBalException extends RuntimeException
 	}
 }
 
+class TransferException extends RuntimeException
+{
+	String msg;
+	
+	TransferException(String msg)
+	{
+	
+	super(msg);
+	}
+}
+
 public class BankBal {
 
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		try
 		{
@@ -82,8 +106,12 @@ public class BankBal {
 		double wamount = sc.nextDouble();
 		ca.withdwaw(wamount);
 		System.out.println("Current Balnce is: "+ca.getBal());
+		System.out.println("Enter Destination Account Number: ");
+		double taccnum = sc.nextDouble();
+		ca.transfer(taccnum);
+		
 		}
-		catch(InsufficiantBalException e)
+		catch(Exception e)
 		{
 			e.printStackTrace();
 		}
