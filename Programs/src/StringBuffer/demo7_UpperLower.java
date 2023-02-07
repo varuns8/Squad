@@ -1,3 +1,4 @@
+package StringBuffer;
 
 public class demo7_UpperLower {
 
