@@ -6,9 +6,9 @@ public class Assignment02 {
 		String s = "My Name is Roshan";
 		String word[] = s.split(" ");
 		
-		for(int i=word.length-1; i>=0; i++) {
-			for(int j=i; j>=4; j--) {
-				System.out.println(word[j]+" ");
+		for(int i=3; i>=0; i--) {
+			for(int j=i; j>=0; j--) {
+				System.out.print(word[j]+" ");
 			}
 			System.out.println();
 		}
