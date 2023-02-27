@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Demo02 {
+public class Demo02_FileOutputByUser {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
