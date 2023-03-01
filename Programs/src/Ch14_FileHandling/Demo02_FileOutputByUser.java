@@ -5,6 +5,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
+//WAP to write code in Diary.txt file by user input
+
 public class Demo02_FileOutputByUser {
 
 	public static void main(String[] args) {

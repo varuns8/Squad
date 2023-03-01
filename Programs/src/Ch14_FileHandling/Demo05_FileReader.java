@@ -2,6 +2,8 @@ package Ch14_FileHandling;
 
 import java.io.FileReader;
 
+//WAP to read "fileinfo.txt" file data
+
 public class Demo05_FileReader {
 
 	public static void main(String[] args) {

@@ -4,6 +4,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+//WAP to create A.txt file and write data in that file
+
 public class Demo01_FileOutput {
 
 	public static void main(String[] args) {

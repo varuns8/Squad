@@ -3,6 +3,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
+//WAP to write data in fileinfo.txt file using user input
+
 public class Demo04_FileWriter {
 
 	public static void main(String[] args) {

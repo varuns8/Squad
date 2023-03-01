@@ -3,6 +3,8 @@ package Ch14_FileHandling;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
+//WAP to create backup.txt file of Diary.txt file
+
 public class Demo03_Input_Backup {
 
 	public static void main(String[] args) {
