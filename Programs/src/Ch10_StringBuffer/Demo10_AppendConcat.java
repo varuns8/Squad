@@ -1,6 +1,6 @@
 package Ch10_StringBuffer;
 
-public class demo10_AppendConcat {
+public class Demo10_AppendConcat {
 
 	public static void main(String[] args) {
 		//String creates immutable(Not Change) Object.

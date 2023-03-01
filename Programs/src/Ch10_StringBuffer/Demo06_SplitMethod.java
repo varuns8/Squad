@@ -1,6 +1,6 @@
 package Ch10_StringBuffer;
 
-public class demo6_Split {
+public class Demo06_SplitMethod {
 
 	public static void main(String[] args) {
 		// Split() is used to split sentence into words

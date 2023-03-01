@@ -1,6 +1,6 @@
 package Ch10_StringBuffer;
 
-public class demo4 {
+public class Demo04_ReplaceMethod {
 
 	public static void main(String[] args) {
 		

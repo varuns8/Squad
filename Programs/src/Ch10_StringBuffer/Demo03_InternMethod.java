@@ -1,6 +1,6 @@
 package Ch10_StringBuffer;
 
-public class demo3 {
+public class Demo03_InternMethod {
 
 	public static void main(String[] args) {
 		// intern() points to SCP object

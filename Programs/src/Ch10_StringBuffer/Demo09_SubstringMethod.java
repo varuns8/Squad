@@ -1,6 +1,6 @@
 package Ch10_StringBuffer;
 
-public class demo9_SubstringMethod {
+public class Demo09_SubstringMethod {
 
 	public static void main(String[] args) {
 		String s1 = "hello world";

@@ -1,6 +1,6 @@
 package Ch10_StringBuffer;
 
-public class demo8_ToCharArray {
+public class Demo08_ToCharArray {
 
 	public static void main(String[] args) {
 		String s1="Raj";

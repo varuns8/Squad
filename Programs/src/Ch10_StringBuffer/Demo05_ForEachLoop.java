@@ -1,6 +1,6 @@
 package Ch10_StringBuffer;
 
-public class demo5_ForEachLoop {
+public class Demo05_ForEachLoop {
 
 	public static void main(String[] args) {
 		

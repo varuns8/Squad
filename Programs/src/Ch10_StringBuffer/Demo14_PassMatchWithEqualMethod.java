@@ -2,7 +2,7 @@ package Ch10_StringBuffer;
 
 import java.util.Scanner;
 
-public class PasswordMatch {
+public class Demo14_PassMatchWithEqualMethod {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

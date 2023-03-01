@@ -1,6 +1,6 @@
 package Ch10_StringBuffer;
 
-public class demo7_UpperLower {
+public class Demo07_UpperLowerMethod {
 
 	public static void main(String[] args) {
 		String s1 = "coder";

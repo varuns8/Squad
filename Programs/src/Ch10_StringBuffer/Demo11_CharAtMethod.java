@@ -1,6 +1,6 @@
 package Ch10_StringBuffer;
 
-public class Char_at {
+public class Demo11_CharAtMethod {
 
 	public static void main(String[] args) {
 		String s = "Rohan";

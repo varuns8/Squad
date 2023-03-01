@@ -1,6 +1,6 @@
 package Ch10_StringBuffer;
 
-public class demo1 {
+public class Demo01_ConcatMethod {
 
 	public static void main(String[] args) {
 		String s=new String("deepak");

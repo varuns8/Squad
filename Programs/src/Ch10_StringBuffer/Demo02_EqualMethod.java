@@ -1,6 +1,6 @@
 package Ch10_StringBuffer;
 
-public class demo2 {
+public class Demo02_EqualMethod {
 
 	public static void main(String[] args) {
 		String s1 = new String("deepak");

@@ -1,7 +1,7 @@
 package Ch10_StringBuffer;
 import java.util.Scanner;
 
-public class PassMatchCompare {
+public class Demo13_PassMatchWithCompareMethod {
 
 	public static void main(String[] args) {
 
