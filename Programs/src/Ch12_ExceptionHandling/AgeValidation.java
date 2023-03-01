@@ -11,7 +11,7 @@ class InvalidAgeException extends RuntimeException
 	
 }
 
-public class ThrowKey 
+public class AgeValidation 
 {
 
 	public static void main(String[] args) 
