@@ -18,7 +18,7 @@ public class AgeValidation
 	{
 		try 
 		{
-		int age = 10;
+		int age = 19;
 		
 		if(age>=18) 
 		{
