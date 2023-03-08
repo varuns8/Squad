@@ -10,7 +10,7 @@ public class Demo04_FileWriter {
 	public static void main(String[] args) {
 		try
 		{
-			FileWriter fw = new FileWriter("fileinfo.txt",true);//here true is used to continue write.
+			FileWriter fw = new FileWriter("fileinfo.txt");//here true is used to continue write.
 			Scanner sc = new Scanner(System.in);
 			System.out.println("Enter Here: ");
 			String s1 = sc.nextLine();

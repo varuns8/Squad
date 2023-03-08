@@ -11,11 +11,11 @@ public class Unboxing {
 		System.out.println(value1);
 		
 		Double obj2 = new Double(2.5);
-		Double value2 = obj2.doubleValue();
+		double value2 = obj2.doubleValue();
 		System.out.println(value2);
 		
 		Long obj3 = new Long(7788665544L);
-		Long value3 = obj3.longValue();
+		long value3 = obj3.longValue();
 		System.out.println(value3);
 
 	}
