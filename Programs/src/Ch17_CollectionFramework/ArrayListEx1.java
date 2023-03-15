@@ -1,7 +1,7 @@
 package Ch17_CollectionFramework;
 import java.util.ArrayList;
 
-public class Ex01_ArrayList {
+public class ArrayListEx1 {
 	public static void main(String[] args) {
 		ArrayList al = new ArrayList();
 		al.add("sam");
