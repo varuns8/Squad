@@ -16,6 +16,13 @@ public class LinkedListToIterateValue {
 		li.add(e2);
 		li.add(e3);
 		li.add(e4);
+		
+		System.out.println("Using Iterator");
+		Iterator<Employee> it = li.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		
 
 	}
 
