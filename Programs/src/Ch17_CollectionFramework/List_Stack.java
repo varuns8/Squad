@@ -3,7 +3,7 @@ package Ch17_CollectionFramework;
 import java.util.Enumeration;
 import java.util.Stack;
 
-public class StackEx1 {
+public class List_Stack {
 
 	public static void main(String[] args) {
 		Stack<String> s=new Stack<>();

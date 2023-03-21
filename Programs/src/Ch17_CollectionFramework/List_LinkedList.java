@@ -2,7 +2,7 @@ package Ch17_CollectionFramework;
 
 import java.util.*;
 
-public class LinkedListEx1 {
+public class List_LinkedList {
 
 	public static void main(String[] args) {
 		System.out.println("------------LinkedList With List Class-------------");

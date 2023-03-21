@@ -4,7 +4,7 @@ package Ch17_CollectionFramework;
 
 import java.util.*;
 
-public class SortedHashSetEx1 {
+public class Set_SortedHashSet {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

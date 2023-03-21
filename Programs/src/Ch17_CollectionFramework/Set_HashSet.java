@@ -2,7 +2,7 @@ package Ch17_CollectionFramework;
 
 import java.util.HashSet;
 
-public class HashSetEx1 {
+public class Set_HashSet {
 
 	public static void main(String[] args) {
 		HashSet<String> hs = new HashSet<>();

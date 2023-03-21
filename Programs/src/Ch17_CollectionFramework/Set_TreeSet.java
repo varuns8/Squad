@@ -2,7 +2,7 @@ package Ch17_CollectionFramework;
 
 import java.util.TreeSet;
 
-public class TreeSetEx1 {
+public class Set_TreeSet {
 
 	public static void main(String[] args) {
 		TreeSet<Integer> ts = new TreeSet<>();

@@ -3,7 +3,7 @@ package Ch17_CollectionFramework;
 import java.util.Enumeration;
 import java.util.Vector;
 
-public class VectorEx1 {
+public class List_Vector {
 
 	public static void main(String[] args) {
 		

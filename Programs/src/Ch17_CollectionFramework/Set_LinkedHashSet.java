@@ -2,7 +2,7 @@ package Ch17_CollectionFramework;
 
 import java.util.LinkedHashSet;
 
-public class LinkedHashSetEx1 {
+public class Set_LinkedHashSet {
 
 	public static void main(String[] args) {
 		LinkedHashSet<String> ls = new LinkedHashSet<>();
