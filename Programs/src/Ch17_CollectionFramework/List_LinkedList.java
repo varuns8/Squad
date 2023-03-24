@@ -5,7 +5,7 @@ import java.util.*;
 public class List_LinkedList {
 
 	public static void main(String[] args) {
-		System.out.println("------------LinkedList With List Class-------------");
+		System.out.println("------------LinkedList With List Interface-------------");
 		List<String> li = new LinkedList<>();
 		li.add("Banana");
 		li.add("Mango");
@@ -18,7 +18,7 @@ public class List_LinkedList {
 		System.out.println("Index of Mango is : "+li.indexOf("Mango"));
 		System.out.println(" ");
 		
-		System.out.println("------------LinkedList With Queue Class-------------");
+		System.out.println("------------LinkedList With Queue Interface-------------");
 		Queue<String> q = new LinkedList<>();
 		q.add("Banana");
 		q.add("Mango");
@@ -33,7 +33,7 @@ public class List_LinkedList {
 		System.out.println("After Remove : "+q);
 		System.out.println(" ");
 		
-		System.out.println("------------LinkedList With Deque Class-------------");
+		System.out.println("------------LinkedList With Deque Interface-------------");
 		Deque<String> dq = new LinkedList<>();
 		dq.add("Banana");
 		dq.add("Mango");
