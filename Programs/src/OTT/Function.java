@@ -208,7 +208,7 @@ public class Function
 	public void add() 
 	{
 		// Customer Account Number
-		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");  
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HHmmss");  
 		LocalDateTime now = LocalDateTime.now();
 		String str=dtf.format(now);
 		AccNo = Long.parseLong(str); // String to long covert

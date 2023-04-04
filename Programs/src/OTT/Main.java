@@ -9,35 +9,33 @@ public class Main
 		Scanner sc = new Scanner(System.in);
 		
 		Function of = new Function();
-		of.menu();
-		of.choice();
+		
 		
 		while(true) 
 		{
 			try
 			{
+			of.menu();
+			of.choice();
+			
 			int key = sc.nextInt();
 			
 			switch(key) 
 			{
 			case 1:
 				of.add();
-				of.choice();
 				break;
 				
 			case 2:
 				of.show();
-				of.choice();
 				break;
 				
 			case 3:
 				of.dlt();
-				of.choice();
 				break;
 				
 			case 4:
 				of.update();
-				of.choice();
 				break;
 				
 			case 5:
